@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+input
+textarea
+select{
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+input[type=radio]
+input[type=checkbox]{
+    display: inline;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0d2f8d;
+}
+
+.container{
+    box-shadow: 0 0 5px 0px black;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(63, 59, 59);
+
+}
+ label{
+     font-size: 12px;
+
+ }
+
+ p{
+     margin-top: 15px;
+     margin-bottom: 5px;
+ }
+ .container__NomeSenha{
+     margin-top: 25;
+     display: flex;
+     align-items: center;
+ }
+
+ .container__NomeSenha :nth-child(1) {
+     margin-right: 25px;
+ }
+
+ .container__NomeSenha :nth-child(2) input{
+    width: 50px;
+ }
+button{
+    color: black;
+}
+
+
+
+
+
